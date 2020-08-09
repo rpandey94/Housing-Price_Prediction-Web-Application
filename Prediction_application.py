@@ -82,7 +82,7 @@ if st.checkbox('Show Raw Data And Column Description'):
 # Making a map to display location of block for which median price will be predicted
 st.write(""" ## Make Prediction """)
 label = list(zip(proximity_map["latitude"], proximity_map["longitude"]))
-location = st.selectbox('Select From Available Geo Coordinates Of Blocks For Predicting House Price: ', label, index=500)
+location = st.selectbox('Select From Available Geo Coordinates Of Blocks For Predicting House Price: ', label, index=1)
 latitude = location[0]
 longitude = location[1]
 lst = [location[0]]
