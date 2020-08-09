@@ -24,11 +24,11 @@ df = fetch_data()
 ocean_proximity = st.sidebar.selectbox(
     'What type of location do you want?',
     ('NEAR OCEAN', 'NEAR BAY', 'ISLAND', 'INLAND', '<1H OCEAN'))
-total_rooms = st.sidebar.number_input('Total Rooms (within a block)', 1000)
-total_bedrooms = st.sidebar.number_input('Total Bedrooms (within a block)', 500)
-housing_median_age = st.sidebar.number_input('Median House Age In Years (within a block)', 20)
-population = st.sidebar.number_input('Number of people (within a block)', 8000)
-households = st.sidebar.number_input('Total number of households (within a block)', 200)
+total_rooms = st.sidebar.number_input('Total Rooms (within a block)', 600)
+total_bedrooms = st.sidebar.number_input('Total Bedrooms (within a block)', 200)
+housing_median_age = st.sidebar.number_input('Median House Age In Years (within a block)', 1)
+population = st.sidebar.number_input('Number of people (within a block)', 400)
+households = st.sidebar.number_input('Total number of households (within a block)', 100)
 median_income = st.sidebar.number_input('Income Of Households (within a block) (measured in tens of thousands of US Dollars)', 0.4999, 15.0001)
 
 
